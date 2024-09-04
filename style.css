@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(77, 77, 184);
+    color: aliceblue;
+    padding: 5px;
+    width: 100%;
+}
+.Navbar_titleDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    
+}
+.navbar__Img{
+    width: 50px;
+    height: auto;
+}
+.Navbar__ListContainer_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    list-style: none;
+}
+
+.Navbar__ListContainer_list > li > a{
+ border: none;
+ text-decoration: none;
+ color: aliceblue;
+ padding-right: 2px;
+}
+
+.Main__section{
+    height: 55vh;
+    width: 100%;
+    border: black 5px solid;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+.Main__section > div{
+    border: black 5px solid;
+}
